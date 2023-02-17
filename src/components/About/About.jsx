@@ -1,15 +1,15 @@
 import React from 'react';
-
+import 'animate.css';
 export default function About() {
   return (
     <div
       className=" h-screen py-8 md:py-16 px-8"
       id="about"
     >
-      <h2 className="text-3xl md:text-6xl text-center md:text-left pb-2 text-red-600">
+      <h2 className="animate__animated animate__fadeInUp animate__delay-5s text-3xl md:text-6xl text-center md:text-left pb-2 text-red-600">
         Meet Hilda
       </h2>
-      <p className="text-gray-600 md:w-3/4 leading-relaxed">
+      <p className="animate__animated animate__fadeInUp animate__delay-6s text-gray-600 md:w-3/4 leading-relaxed">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos dolorum
         quisquam veniam, doloremque tempore recusandae eaque cum laudantium
         officiis. Repellendus, quis possimus asperiores nemo veritatis nisi
