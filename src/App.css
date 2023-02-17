@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Inter:wght@400;700&display=swap");
+
+body,
+html {
+    font-family: 'Inter', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-background: #000119;
+    --stroke-width: calc(2em / 16);
+    --font-size: 30vmin;
+    --font-weight: 700;
+    --letter-spacing: calc(1em / 8);
+}
+
+.gradient-text {
+    background-clip: text;
+    /* background-image: linear-gradient(to right, #135000, #0ba306, #e78057, #f34747); */
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+}
