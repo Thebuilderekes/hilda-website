@@ -60,15 +60,15 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className=" hover:text-green-600">
+              <li className="border-b border-gray-300 md:border-b-0 hover:text-green-600">
                 <a
-                  className=" uppercase text-bold"
+                  className="uppercase text-bold"
                   href={about}
                 >
                   Meet Hilda
                 </a>
               </li>
-              <li className=" text-bold hover:text-green-600">
+              <li className="border-b border-gray-300 md:border-b-0 text-bold hover:text-green-600">
                 <a
                   className=" uppercase text-bold"
                   href="javascript:void(0)"
@@ -76,7 +76,7 @@ export default function NavBar() {
                   Press
                 </a>
               </li>
-              <li className=" hover:text-green-600">
+              <li className="border-b border-gray-300 md:border-b-0 hover:text-green-600">
                 <a
                   className=" uppercase text-extrabold"
                   href={GetInvolved}
@@ -84,7 +84,7 @@ export default function NavBar() {
                   Get involved
                 </a>
               </li>
-              <li className="text-white bg-red-600 p-2 inline-block rounded-lg hover:text-red hover:bg-red-400">
+              <li className="border-b border-gray-300 md:border-b-0 text-white bg-red-600 p-2 inline-block rounded-lg hover:text-red hover:bg-red-400">
                 <a
                   className=" uppercase"
                   href="javascript:void(0)"

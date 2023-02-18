@@ -7,7 +7,7 @@ import LPLogo from '../../assets/images/lp-logo.jpg';
 function Herosection() {
   return (
     <div className="h-3/4 md:h-screen ">
-      <section className=" z-20 px-8 flex flex-col gap-16 items-center  md:flex md:flex-row md:justify-around pt-16 h-full bg-gradient-to-r  from-green-700 to-transparent">
+      <section className=" z-20 flex h-full flex-col items-center gap-16  bg-gradient-to-r from-green-700 to-transparent px-8 pt-16 md:flex  md:flex-row md:justify-around">
         <div className="hero-text xs:bg-blue-200 flex flex-col items-center md:items-start ">
           {' '}
           {/*----------- Hero-text section----------*/}
@@ -18,26 +18,26 @@ function Herosection() {
               width="80px"
               height="90px"
             />
-            <h1 className="text-white text-3xl md:text-6xl text-extrabold z-30  ">
+            <h1 className="text-extrabold z-30 text-3xl text-white md:text-6xl   ">
               HILDA DOKUBO
             </h1>
           </div>
-          <h2 className="md:text-white text-xl md:text-2xl text-center md:text-left z-30 py-2  animate__animated animate__fadeInUp animate__delay-2s">
+          <h2 className="animate__animated animate__fadeInUp animate__delay-2s z-30 py-2 text-center  text-xl  md:text-left md:text-2xl md:text-white">
             Candidate, House of Representatives.
           </h2>
-          <h3 className="md:text-white text-xl text-center md:text-left pb-8  animate__animated animate__fadeInUp animate__delay-3s">
+          <h3 className="text-bold animate__animated animate__fadeInUp animate__delay-3s pb-8 text-center text-lg text-red-700  md:text-left md:text-base md:text-white">
             Asalga/Akulga Federal Consistency.
           </h3>
           <a
-            className="animate__animated animate__fadeInUp animate__delay-4s text-white text-2xl md:text-3xl md:text-left mx-auto md:mx-0  bg-red-600 px-4 py-2 hover:text-red hover:bg-red-700"
+            className=" animate__animated animate__fadeInUp animate__delay-4stext-2xl hover:text-red mx-auto bg-red-600 px-4 py-2 text-white  hover:bg-red-700   md:mx-0 md:text-left md:text-3xl"
             href=""
           >
             Read Policies
           </a>
         </div>
-        <div className="hero-image -z-10 animate__animated animate__fadeIn animate__delay-4s md:animate__delay-1s">
+        {/*----------Hero image-------------*/}
+        <div className="hero-image animate__animated animate__fadeIn animate__delay-4s md:animate__delay-1s -z-10">
           {' '}
-          {/*----------Hero image section-------------*/}
           <img
             src={heroImage}
             alt="hilda Dokubo wearing a suit and  smiling "
