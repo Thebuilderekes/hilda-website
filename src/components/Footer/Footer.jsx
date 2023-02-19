@@ -1,54 +1,69 @@
 import React from 'react';
 
 export default function Footer() {
+  const home = 'index.html';
+  const about = '#about';
+  const bill = '#bill';
+
   return (
-    <footer className="pt-4 md:pt-8">
-      <nav className="py-4">
-        <ul className=" flex justify-evenly ">
+    <footer className=" md:pt-8">
+      <nav
+        aria-label="footer navigation"
+        className="py-4"
+      >
+        <ul className=" flex justify-around ">
           <li>
             <a
-              className="text-red-800"
-              href=""
+              className="text-sm text-red-800 underline md:text-base"
+              href={home}
             >
-              link
+              Home
             </a>
           </li>
           <li>
             <a
-              className="text-red-800"
-              href=""
+              className="text-sm text-red-800 underline md:text-base"
+              href={about}
             >
-              link
+              About
             </a>
           </li>
           <li>
             <a
-              className="text-red-800"
-              href=""
+              className="text-sm text-red-800 underline md:text-base"
+              href={bill}
             >
-              link
+              Bills
             </a>
           </li>
           <li>
             <a
-              className="text-red-800"
+              className="text-sm text-red-800 underline md:text-base"
               href=""
             >
-              link
+              Press
             </a>
           </li>
           <li>
             <a
-              className="text-red-800"
+              className="text-sm text-red-800 underline md:text-base"
               href=""
             >
-              link
+              Terms of Service
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-sm text-red-800 underline md:text-base"
+              href=""
+            >
+              Privacy policy
             </a>
           </li>
         </ul>
       </nav>
       <div className="copyright">
-        <p className="text-red-800 text-sm text-center">
+        <p className="text-center text-sm">
           &copy; 2023 Hilda Dokubo. All Rights reserved.
         </p>
       </div>

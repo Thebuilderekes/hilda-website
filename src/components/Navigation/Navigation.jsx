@@ -4,26 +4,30 @@ import { useState } from 'react';
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const home = 'index.html';
-  const about = 'index.html#about';
-  const GetInvolved = 'index.html#getinvolved';
+  const about = '#about';
+  const bill = '#bill';
+  const GetInvolved = '#getinvolved';
 
   return (
-    <nav className="w-full bg-white">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav
+      aria-label="primary navigation"
+      className="w-full bg-white"
+    >
+      <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-3 md:block md:py-5">
             <a href={home}>
               <h2 className="text-2xl font-bold">Hilda Dokubo</h2>
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
+                    className="h-6 w-6"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -36,7 +40,7 @@ export default function NavBar() {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -55,36 +59,36 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
               navbar ? 'block' : 'hidden'
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="border-b border-gray-300 md:border-b-0 hover:text-green-600">
+              <li className="border-b border-gray-300 hover:text-green-600 md:border-b-0">
                 <a
-                  className="uppercase text-bold"
+                  className="text-bold uppercase"
                   href={about}
                 >
                   Meet Hilda
                 </a>
               </li>
-              <li className="border-b border-gray-300 md:border-b-0 text-bold hover:text-green-600">
+              <li className="text-bold border-b border-gray-300 hover:text-green-600 md:border-b-0">
                 <a
-                  className=" uppercase text-bold"
-                  href="javascript:void(0)"
+                  className=" text-bold uppercase"
+                  href={bill}
                 >
-                  Press
+                  Bills
                 </a>
               </li>
-              <li className="border-b border-gray-300 md:border-b-0 hover:text-green-600">
+              <li className="border-b border-gray-300 hover:text-green-600 md:border-b-0">
                 <a
-                  className=" uppercase text-extrabold"
+                  className=" text-extrabold uppercase"
                   href={GetInvolved}
                 >
                   Get involved
                 </a>
               </li>
-              <li className="border-b border-gray-300 md:border-b-0 text-white bg-red-600 p-2 inline-block rounded-lg hover:text-red hover:bg-red-400">
+              <li className="hover:text-red inline-block rounded-lg border-b border-gray-300 bg-red-600 p-2 text-white hover:bg-red-400 md:border-b-0">
                 <a
                   className=" uppercase"
                   href="javascript:void(0)"

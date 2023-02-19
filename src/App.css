@@ -16,10 +16,8 @@ html {
     --letter-spacing: calc(1em / 8);
 }
 
-.gradient-text {
+.design-text {
     background-clip: text;
-    /* background-image: linear-gradient(to right, #135000, #0ba306, #e78057, #f34747); */
-    color: var(--color-background);
     font-size: var(--font-size);
     font-weight: var(--font-weight);
     letter-spacing: var(--letter-spacing);

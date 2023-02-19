@@ -29,14 +29,14 @@ function Herosection() {
             Asalga/Akulga Federal Consistency.
           </h3>
           <a
-            className=" animate__animated animate__fadeInUp animate__delay-4stext-2xl hover:text-red mx-auto bg-red-600 px-4 py-2 text-white  hover:bg-red-700   md:mx-0 md:text-left md:text-3xl"
+            className=" animate__animated animate__fadeInUp animate__delay-4s hover:text-red mx-auto bg-red-600 px-4 py-2 text-2xl text-white  hover:bg-red-700   md:mx-0 md:text-left md:text-3xl"
             href=""
           >
-            Read Policies
+            Read Bills
           </a>
         </div>
         {/*----------Hero image-------------*/}
-        <div className="hero-image animate__animated animate__fadeIn animate__delay-4s md:animate__delay-1s -z-10">
+        <div className="hero-image animate__animated animate__fadeIn animate__delay-2s md:animate__delay-1s -z-10">
           {' '}
           <img
             src={heroImage}
