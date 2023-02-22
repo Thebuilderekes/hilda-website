@@ -5,6 +5,7 @@ import heroImage from '../../assets/images/hero-image-small.png';
 import LPLogo from '../../assets/images/lp-logo.jpg';
 
 function Herosection() {
+  const bill = '#bill';
   return (
     <div className="h-3/4 md:h-screen ">
       <section className=" z-20 flex h-full flex-col items-center gap-16  bg-gradient-to-r from-green-700 to-transparent px-8 pt-16 md:flex  md:flex-row md:justify-around">
@@ -18,19 +19,19 @@ function Herosection() {
               width="80px"
               height="90px"
             />
-            <h1 className="text-extrabold z-30 text-3xl text-white md:text-6xl   ">
+            <h1 className="design-text z-30 text-3xl text-white md:text-5xl">
               HILDA DOKUBO
             </h1>
           </div>
-          <h2 className="animate__animated animate__fadeInUp animate__delay-2s z-30 py-2 text-center  text-xl  md:text-left md:text-2xl md:text-white">
+          <h2 className="design-text animate__animated animate__fadeInUp animate__delay-2s z-30 py-2 text-center  text-xl  md:text-left md:text-2xl md:text-white">
             Candidate, House of Representatives.
           </h2>
-          <h3 className="text-bold animate__animated animate__fadeInUp animate__delay-3s pb-8 text-center text-lg text-red-700  md:text-left md:text-base md:text-white">
-            Asalga/Akulga Federal Consistency.
+          <h3 className="design-text animate__animated animate__fadeInUp animate__delay-3s pb-8 text-center text-lg text-red-700  md:text-left md:text-base md:text-white">
+            Asalga/Akulga Federal Constituency.
           </h3>
           <a
-            className=" animate__animated animate__fadeInUp animate__delay-4s hover:text-red mx-auto bg-red-600 px-4 py-2 text-2xl text-white  hover:bg-red-700   md:mx-0 md:text-left md:text-3xl"
-            href=""
+            className=" animate__animated animate__fadeInUp animate__delay-4s hover:text-red mx-auto rounded-lg bg-red-700 px-4 py-2 text-2xl  text-white hover:bg-red-800  md:mx-0 md:text-left md:text-3xl"
+            href={bill}
           >
             Read Bills
           </a>

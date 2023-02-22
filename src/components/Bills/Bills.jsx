@@ -28,7 +28,7 @@ export default function Bills() {
       id="bill"
       className=" bg-gradient-to-r from-green-700 to-transparent  px-8 py-8"
     >
-      <h2 className="animate__animated animate__fadeInUp animate__delay-3s pb-2 text-center text-3xl text-red-600 md:text-left md:text-6xl md:text-white">
+      <h2 className="design-text animate__animated animate__fadeInUp animate__delay-3s pb-2 text-center text-3xl text-red-600 md:text-left md:text-6xl md:text-white">
         Bill Proposal
       </h2>
       <ul className="grid grid-cols-1 gap-8 md:grid-cols-2">

@@ -3,13 +3,13 @@ import 'animate.css';
 export default function About() {
   return (
     <div
-      className="py-8 md:py-16 px-8"
+      className="py-8 px-8 md:py-16"
       id="about"
     >
-      <h2 className="animate__animated animate__fadeInUp animate__delay-3s text-3xl md:text-6xl text-center md:text-left pb-2 text-red-600">
+      <h2 className=" design-text animate__animated animate__fadeInUp animate__delay-3s pb-2 text-center text-3xl text-red-600 md:text-left md:text-6xl">
         Meet Hilda
       </h2>
-      <p className="animate__animated animate__fadeInUp animate__delay-3s text-gray-700 md:w-3/4 leading-relaxed">
+      <p className="animate__animated animate__fadeInUp animate__delay-3s leading-relaxed text-gray-700 md:w-3/4">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos dolorum
         quisquam veniam, doloremque tempore recusandae eaque cum laudantium
         officiis. Repellendus, quis possimus asperiores nemo veritatis nisi

@@ -44,14 +44,7 @@ export default function Footer() {
               Press
             </a>
           </li>
-          <li>
-            <a
-              className="text-sm text-red-800 underline md:text-base"
-              href=""
-            >
-              Terms of Service
-            </a>
-          </li>
+    
           <li>
             <a
               className="text-sm text-red-800 underline md:text-base"
